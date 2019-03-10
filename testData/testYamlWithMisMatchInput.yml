@@ -1,0 +1,29 @@
+invoice: 34843
+bill-to: &id001
+    given  : Chris
+    family : Yashad
+    address:
+        lines: |
+            458 Changed One.
+            Suite #292
+        city    : Raleigh
+        postal  : 48046
+        Plot no : #123
+ship-to: *id001
+product:
+    - sku         : Product1
+      quantity    : 1
+      description : Basketball
+      price       : 550.00
+    - sku         : Product 2
+      quantity    : 2
+      description : Football
+      price       : 2392.00
+    - sku         : New Product
+      quantity    : 90
+      description : Scooter
+      price       : 1000.00
+tax  : 
+   local Tax : 23.1
+   Federal Tax : 170.21
+total: 6781.32

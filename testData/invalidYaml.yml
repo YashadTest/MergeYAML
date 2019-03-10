@@ -1,0 +1,14 @@
+bill-to: &id001
+    given  : Chris
+    family : Yashad
+    address:
+        lines: |
+            458 Changed One.
+            Suite #292
+        city    : Raleigh
+        postal  : 48046
+        Plot no : #123
+ship-to: *id001
+
+tax 123.3       #invalid syntax for YML
+total: 4443.52

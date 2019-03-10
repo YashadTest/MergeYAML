@@ -1,0 +1,25 @@
+invoice: 34843
+ServicedBy  : Chris
+Name : Yashad
+address:
+    lines: |
+            458 Changed One.
+            Suite #292
+    city    : Raleigh
+    postal  : 48046
+    Plot no : #123
+product:
+    - sku         : Product1
+      quantity    : 1
+      description : Basketball
+      price       : 550.00
+    - sku         : Product 2
+      quantity    : 2
+      description : Football
+      price       : 2392.00
+    - sku         : New Product
+      quantity    : 90
+      description : Scooter
+      price       : 100000.00
+tax  : 251.42
+total: 4443.52

@@ -1,0 +1,31 @@
+invoice: 34843
+ServicedBy  : Chris
+Name : Dumars
+address:
+    lines: |
+            458 Walkman Dr.
+            Suite #292
+    city    : Royal Oak
+    state   : MI
+    postal  : 48046
+product:
+    - sku         : BL394D
+      quantity    : 4
+      description : NayaProduct
+      price       : 999.00
+      
+    - sku         : New Product
+      quantity    : 40
+      description : Scooter
+      price       : 2392.00
+      
+    - sku         : Product1
+      quantity    : 1
+      description : Basketball
+      price       : 550.00
+    - sku         : Product 2
+      quantity    : 2
+      description : Football
+      price       : 2392.00
+someNew: 1000
+total: 4443.52
