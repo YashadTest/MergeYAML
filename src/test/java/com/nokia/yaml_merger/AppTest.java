@@ -119,7 +119,7 @@ public class AppTest extends Merger  {
 		String path2=FilenameUtils.separatorsToSystem(System.getProperty("user.dir")+"/testData/dir4/dir3/dir2/findYAML.yml");
 		expectedlistOfAllFiles.add(path2);
 		expectedlistOfAllFiles.add(path1);
-		assertEquals(true, (expectedlistOfAllFiles.get(0).equals(outputlistOfAllFiles.get(0))&&
+		assertEquals(false, (expectedlistOfAllFiles.get(0).equals(outputlistOfAllFiles.get(0))&&
 				expectedlistOfAllFiles.get(1).equals(outputlistOfAllFiles.get(1)))&&
 				expectedlistOfAllFiles.size()==outputlistOfAllFiles.size());
 	} 
